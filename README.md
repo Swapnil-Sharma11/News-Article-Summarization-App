@@ -1,1 +1,3 @@
 # News-Article-Summarization-App
+
+The Python script uses Streamlit to create a web-based interface for summarizing news articles. It imports libraries like newspaper for article extraction, TextBlob for sentiment analysis, langdetect for language detection, and NaiveBayesClassifier for text classification based on predefined categories. The summarize function extracts metadata (title, authors, publish date), detects the article's language, generates keywords, and provides a summary and full text from a given URL. The main function integrates these functionalities, allowing users to input an article URL, retrieve and display summarized information, including sentiment analysis and classification, all styled with a custom Verdana font.
